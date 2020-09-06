@@ -33,7 +33,6 @@ if (isset($_POST['submit'])) {
         echo 'Cannot upload file with that extension!';
     }
 }
-var_dump($_FILES);
 ?>
 
 <form action="<?= $_SERVER['PHP_SELF']; ?>" method="post" enctype="multipart/form-data">
